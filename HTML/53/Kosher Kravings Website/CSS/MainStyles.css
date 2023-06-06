@@ -1,0 +1,15 @@
+html{
+background-color: #edcfcf;
+background-image: linear-gradient(43deg, #edcfcf 0%, #b2bee7 48%, #d6d6c2 85%, #ffffff 100%);
+}
+header{
+    text-align: center;
+}
+nav {
+    color: grey;
+}
+p{text-align: justify;}
+body p {
+            border: 2px solid yellow;
+            border-radius: 5px;
+            }
