@@ -4,10 +4,12 @@ html {
 
 body {
     background-image: linear-gradient(43deg, #edcfcf 0%, #b2bee7 48%, #d6d6c2 85%, #ffffff 100%);
+    background-size: contain;
     margin: auto;
     overflow-y: scroll;
     max-width: 1000px;
     padding: 5px;
+    height: 100%;
 }
 
 header {
@@ -65,6 +67,7 @@ nav a:active {
     font-style: bold;
     transform: skew(25deg, 0deg);
     margin: 5px;
+    vertical-align: bottom;
 }
 
 article {
@@ -99,17 +102,19 @@ article p {
     border: 2px inset;
     padding-left: 8px;
     padding-right: 8px;
-    max-width: 400px;
-    height: 220px;
+    max-width: 233px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+
+section {
+    margin: auto;
+    width: 795px;
 }
 
 .link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    text-decoration: none;
 }
 
 section h2 {
@@ -128,16 +133,21 @@ section img {
     float: left;
     margin: none;
     padding: none;
+    padding-right: 10px;
     width: 100px;
+}
+
+section img:hover {
+    transform: scale(4);
+    z-index: -1;
 }
 
 section div {
     border: none;
-    float: left;
     max-width: 200px;
     padding: none;
     margin: none;
-    padding-left: 15px;
+    padding-left: 8px;
     text-align: justify;
 }
 
@@ -146,14 +156,49 @@ h5 a:active,
 h5 a:focus,
 h5 a:hover {
     clear: both;
-    float: left;
+    display: block;
     border: none;
-    max-width: 350px;
-    text-align: center;
     transform: skew(25deg, 0deg);
     font-size: 1.2em;
-    margin-top: 10px;
     text-decoration: none;
-    padding-left: 80px;
+    text-align: center;
     color: black;
+}
+
+article.description {
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    line-break: auto;
+    display: block;
+}
+
+div.description {
+    width: 160px;
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+img.description {
+    width: 150px;
+    height: 100px;
+    border: black solid 1px;
+    padding: 2px;
+    background-color: white;
+}
+
+.first {
+    position: relative;
+    transform: rotate(20deg);
+}
+
+.second {
+    transform: rotate(-20deg);
+}
+body.description{
+    background-image: url("Images/MatzoBallSoup.png"),;
+    background-position:bottom right ;
 }
