@@ -93,6 +93,8 @@ article p {
     border: none;
     margin: 0px;
     padding: 4px;
+    font-family: cursive;
+    font-size: 0.85em;
 }
 
 .pageHeader {

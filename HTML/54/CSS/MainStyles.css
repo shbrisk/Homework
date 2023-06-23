@@ -10,6 +10,7 @@ body {
     max-width: 1000px;
     padding: 5px;
     height: 100%;
+    text-align: center;
 }
 
 header {
@@ -62,12 +63,12 @@ nav a:active {
 }
 
 .announcement {
+    display: inline-block;
     text-align: center;
     font-size: 130%;
     font-style: bold;
     transform: skew(25deg, 0deg);
     margin: 5px;
-    vertical-align: bottom;
 }
 
 article {
@@ -86,14 +87,13 @@ article p {
 }
 
 .pageHeader {
+    display: inline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: royalblue;
     font-size: 1.3em;
     text-transform: capitalize;
     text-align: center;
     text-shadow: 2px 2px 10px rgb(133, 62, 192);
-    overflow: hidden;
-    white-space: nowrap
 }
 
 .menu {
@@ -198,7 +198,8 @@ img.description {
 .second {
     transform: rotate(-20deg);
 }
-body.description{
-    background-image: url("Images/MatzoBallSoup.png"),;
-    background-position:bottom right ;
+
+body.description {
+    background-image: url("Images/MatzoBallSoup.png"), ;
+    background-position: bottom right;
 }

@@ -1,0 +1,270 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-image: linear-gradient(43deg, #edcfcf 0%, #b2bee7 48%, #d6d6c2 85%, #ffffff 100%);
+    background-size: contain;
+    margin: auto;
+    overflow-y: scroll;
+    max-width: 1000px;
+    padding: 5px;
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px darkgray inset;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+nav {
+    color: grey;
+    text-shadow: -1px -1px 0px darkgray, 1px 1px darkgray;
+    font-size: 1.2em;
+}
+
+p[homePage] {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#logo {
+    max-height: 150px;
+    width: 70%;
+}
+
+nav a {
+    color: gray;
+    text-decoration: none;
+    text-shadow: 1px 1px darkkhaki;
+}
+
+nav a:focus {
+    color: darkkhaki;
+    text-shadow: 1px 1p darkgray;
+}
+
+nav a:hover {
+    color: darkkhaki;
+    text-shadow: 1px 1p darkgray;
+}
+
+nav a:active {
+    color: crimson;
+}
+
+.announcement {
+    display: inline-block;
+    text-align: center;
+    font-size: 130%;
+    font-style: bold;
+    transform: skew(25deg, 0deg);
+    margin: 5px;
+}
+
+#about {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#aboutImage {
+    background-image: url("About_Background.png");
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 3px 15px rgb(197, 51, 192);
+}
+
+article p {
+    line-height: 1.5em;
+    border: none;
+    margin: 0px;
+    padding: 4px;
+    font-family: cursive;
+    font-size: 0.85em;
+}
+
+.pageHeader {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: royalblue;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(133, 62, 192);
+}
+
+.menu {
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 2px inset;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 233px;
+    height: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+
+section {
+    margin: auto;
+    width: 795px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+section h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgb(5, 5, 5);
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: dashed gray 1px;
+}
+
+.menu img {
+    float: left;
+    margin: none;
+    padding: none;
+    padding-right: 10px;
+    width: 100px;
+}
+
+.menu img:hover {
+    transform: scale(4);
+    z-index: -1;
+}
+
+section.menu div {
+    border: none;
+    max-width: 200px;
+    padding: none;
+    margin: none;
+    padding-left: 8px;
+    text-align: justify;
+}
+
+h5 a,
+h5 a:active,
+h5 a:focus,
+h5 a:hover {
+    clear: both;
+    display: block;
+    border: none;
+    transform: skew(25deg, 0deg);
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+article.description {
+    background: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    line-break: auto;
+    display: block;
+}
+
+div.description {
+    width: 160px;
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+img.description {
+    width: 150px;
+    height: 100px;
+    border: black solid 1px;
+    padding: 2px;
+    background-color: white;
+}
+
+.first {
+    position: relative;
+    transform: rotate(20deg);
+}
+
+.second {
+    transform: rotate(-20deg);
+}
+
+body.description {
+    background-image: url("Images/MatzoBallSoup.png"), ;
+    background-position: bottom right;
+}
+
+#promovid video {
+    max-width: 240px;
+    max-height: 240px;
+}
+
+#promovid {
+    margin-top: 20px;
+    padding-right: 100px;
+    max-width: 400px;
+    float: right;
+    text-align: left;
+    border: none;
+    margin-bottom: 0px;
+}
+
+#gfVid {
+    /* why doesnt it let me target video [target*="Gefilte"]?*/
+    max-width: 500px;
+    /*how can i make this align with the body which is max 800px?*/
+    position: fixed;
+    right: 50%;
+    top: 45%;
+}
+
+.gefilte_menu-item {
+    margin-left: 52%;
+    padding-left: 0px;
+    border-left: solid 1px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.gefilte_menu-item>p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 10px;
+}
+
+.gefilte_menu-item p+p {
+    margin-top: 25px;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+    padding: 5px;
+}
+
+.gefilte_menu-item p:last-of-type {
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+    line-height: 1.3em;
+}
