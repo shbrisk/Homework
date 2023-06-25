@@ -1,0 +1,20 @@
+form {
+    margin-top: 20px;
+}
+
+label {
+    float: left;
+    width: 18%;
+    text-align: left;
+    margin-left: 10%;
+    text-shadow: 1px 1px white;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input {
+    clear: both;
+    float: right;
+    width: 60%;
+    margin-right: 10%;
+}

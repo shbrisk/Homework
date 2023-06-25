@@ -1,0 +1,78 @@
+.chef-page img {
+    position: absolute;
+    max-width: 30%;
+    left: 0px;
+}
+
+.chef-page p:nth-child(-n+4) {
+    margin-left: 20%;
+}
+
+@media (width >500px) {
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 30%;
+    }
+}
+
+@media (width >600px) {
+    .chef-page img {
+        left: 10px;
+    }
+
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 33%;
+    }
+}
+
+@media (width >=800px) {
+    .chef-page img {
+        left: 20px;
+    }
+
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 40%;
+    }
+}
+
+@media (width >=1000px) {
+    .chef-page img {
+        left: 100px;
+    }
+}
+
+@media (width >=1200px) {
+    .chef-page img {
+        left: 200px;
+    }
+
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 45%;
+    }
+}
+
+@media (width >130px) {
+
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 48%;
+    }
+}
+
+@media (width >=1400px) {
+    .chef-page img {
+        left: 300px;
+    }
+
+    .chef-page p:nth-child(-n+4) {
+        margin-left: 55%;
+    }
+}
+
+@media (width >=1600px) {
+    .chef-page p:nth-child(-n+5) {
+        margin-left: 50%;
+    }
+}
+
+.chef-page p {
+    font-family: 'Shadows Into Light', cursive;
+}
