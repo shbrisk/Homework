@@ -51,3 +51,7 @@ tbody td:last-child {
 tbody td:first-child {
     border-right: groove 2px;
 }
+
+caption p {
+    margin: 0;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: grid;
+        grid-template: 200px 50px 50px 200px / 200px 50px 50px 200px;
+
+        grid-template-areas:
+            " . xred xred . "
+            " xgreen xred2 xpurple2 xpurple "
+            " xgreen xgreen2 xbrown2 xpurple "
+            " . xbrown xbrown . ";
+
+        justify-content: center;
+    }
+
+    div:nth-child(1) {
+        background-color: red;
+        grid-area: xred;
+        /* grid-area: xred2; */
+    }
+
+    div:nth-child(2) {
+        background-color: purple;
+        grid-area: xpurple;
+        /* grid-area: xpurple2; */
+    }
+
+    div:nth-child(3) {
+        background-color: brown;
+        grid-area: xbrown;
+        /* grid-area: xbrown2; */
+    }
+
+    div:nth-child(4) {
+        background-color: green;
+        grid-area: xgreen;
+        /* grid-area: xgreen2; */
+    }
+
+    div:nth-child(5) {
+        background-color: red;
+        grid-area: xred2;
+    }
+
+    div:nth-child(6) {
+        background-color: purple;
+        grid-area: xpurple2;
+    }
+
+    div:nth-child(7) {
+        background-color: brown;
+        grid-area: xbrown2;
+    }
+
+    div:nth-child(8) {
+        background-color: green;
+        grid-area: xgreen2;
+    }
+</style>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>

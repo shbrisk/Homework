@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            gap: 1em;
+            grid-auto-rows: 100px;
+            grid-auto-columns: 100%;
+            justify-content: center;
+            grid-template-areas:
+                "box1"
+                "box2"
+                "box3"
+                "box4"
+                "box5"
+                "box6"
+                "box7"
+            ;
+            margin: 5px;
+        }
+
+        div {
+            background-color: orange;
+        }
+
+        div:nth-child(1) {
+            grid-area: box1;
+        }
+
+
+        @media (width >=420px) {
+            body {
+                grid-auto-rows: 180px;
+                grid-auto-columns: 48%;
+                grid-template-areas:
+                    " box1 box1 "
+                    " box2 box3 "
+                    " box4 box5 "
+                    " box6 box7 "
+                ;
+            }
+
+            div {
+                background-color: green;
+            }
+        }
+
+        @media (width >=1000px) {
+            body {
+                grid-auto-rows: 250px;
+                grid-auto-columns: 23%;
+                grid-template-areas:
+                    " box1 box1 box2 box3 "
+                    " box4 box5 box6 box7 "
+                ;
+            }
+
+            div {
+                background-color: maroon;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+
+</html>
