@@ -3,9 +3,10 @@
 
     function myMap(array, func) {
         let newArray = [];
-        let index = 0;
+        //let index = 0;
         array.forEach(element => {
-            newArray[index++] = func(element);
+            //newArray[index++] = func(element);
+            newArray.push(func(element));
         });
         console.log(`Original Array: ${array}`);
         console.log(`New Array: ${newArray}`);
