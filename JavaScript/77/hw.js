@@ -2,7 +2,7 @@
 (function () {
     'use strict';
 
-    var css = '.yellow { background-color: yellow; }';
+    let css = '.yellow { background-color: yellow; }';
     $('<style>')
         .text(css)
         .appendTo('head');

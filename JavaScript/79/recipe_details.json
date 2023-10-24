@@ -1,0 +1,34 @@
+{
+    "1": {
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+            "Spaghetti",
+            "Ground Beef",
+            "Tomato Sauce",
+            "Onion",
+            "Garlic"
+        ],
+        "image": "pics/spaghetti-bolognese.jpg"
+    },
+    "2": {
+        "name": "Chicken Curry",
+        "ingredients": [
+            "Chicken",
+            "Curry Powder",
+            "Coconut Milk",
+            "Onion",
+            "Garlic"
+        ],
+        "image": "pics/chicken_curry.jpg"
+    },
+    "3": {
+        "name": "Caesar Salad",
+        "ingredients": [
+            "Lettuce",
+            "Croutons",
+            "Parmesan Cheese",
+            "Caesar Dressing"
+        ],
+        "image": "pics/Caesar-Salad.jpg"
+    }
+}
