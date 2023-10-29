@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <style>
+        body {
+            margin: auto;
+            text-align: center;
+        }
+
+        #video-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            cursor: pointer;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+        li {
+            display: inline-block;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        li p {
+            text-align: center;
+            margin: 5px 0;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Video List</h1>
+    <ul id="video-list"></ul>
+    <video id="video-player" controls>
+        No Videos to Display
+    </video>
+    <script src="hw.js"></script>
+</body>
+
+</html>

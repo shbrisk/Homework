@@ -1,0 +1,19 @@
+{
+    "videos": [
+        {
+            "title": "El Hanaar",
+            "url": "media/El Hanaar Hazeh.mp4",
+            "image": "media/elhanar.png"
+        },
+        {
+            "title": "Ivri Anochi",
+            "url": "media/ivri.mp4",
+            "image": "media/ivri.png"
+        },
+        {
+            "title": "Kol Zman",
+            "url": "media/kolzman.mp4",
+            "image": null
+        }
+    ]
+}
