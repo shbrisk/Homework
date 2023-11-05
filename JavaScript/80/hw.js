@@ -1,4 +1,5 @@
 (function () {
+    'use strict'
     const videoList = document.getElementById("video-list");
     const videoPlayer = document.getElementById("video-player");
 
